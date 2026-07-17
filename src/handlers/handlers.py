@@ -46,6 +46,8 @@ from src.services.pulse_survey_service import (
     write_pulse_survey_excel,
     PULSE_QUESTION_KEYS,
 )
+from src.config import LPR_USER_ID
+from src.services.ouroboros_bridge import ask_ouroboros
 from src.services.holiday_decor_service import (
     HolidayDecorState,
 )
@@ -170,7 +172,8 @@ def register_handlers(
             "🤖 <b>ai-takt — Команды</b>\n\n"
             "/start — Зарегистрироваться в боте\n"
             "/help — Показать это сообщение\n"
-            "/me — Показать мои данные\n\n"
+            "/me — Показать мои данные\n"
+            "/obo <текст> — Задать вопрос Ouroboros\n\n"
             "<b>Мероприятия:</b>\n"
             "/event_help — Все команды мероприятий\n"
             "/event_propose — Предложить мероприятие\n"
@@ -198,6 +201,40 @@ def register_handlers(
         else:
             text = "Ты ещё не зарегистрирован. Отправь /start"
         await message.answer(text, parse_mode="HTML")
+
+    # ──────────────────────────────────────────────
+    # /obo <text> — Talk to Ouroboros (LPR only)
+    # ──────────────────────────────────────────────
+    @router.message(Command("obo"))
+    async def cmd_obo(message: types.Message):
+        """Bridge to Ouroboros agent via WebSocket."""
+        user = message.from_user
+        if not user or user.id != LPR_USER_ID:
+            await message.answer("Эта команда доступна только для ЛПР.")
+            return
+
+        text = message.text or ""
+        parts = text.split(maxsplit=1)
+        if len(parts) < 2 or not parts[1].strip():
+            await message.answer("Использование: /obo <текст сообщения>")
+            return
+
+        query = parts[1].strip()
+        thinking_msg = await message.answer("⏳ Думаю...")
+        try:
+            response = await ask_ouroboros(query)
+        finally:
+            try:
+                await thinking_msg.delete()
+            except Exception:
+                pass
+
+        # Send response (split if > 4096 chars, no HTML parse to avoid injection)
+        if len(response) <= 4096:
+            await message.answer(response, parse_mode=None)
+        else:
+            for i in range(0, len(response), 4096):
+                await message.answer(response[i:i + 4096], parse_mode=None)
 
     # ──────────────────────────────────────────────
     # /pulse_survey command

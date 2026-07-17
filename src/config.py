@@ -18,6 +18,11 @@ LPR_USER_ID: int = int(os.getenv("LPR_USER_ID", "0"))
 предложений и смет только в личку ЛПР, минуя общий командный чат.
 """
 
+OUROBOROS_WS_URL: str = os.getenv("OUROBOROS_WS_URL", "ws://localhost:8765/ws")
+"""WebSocket URL for Ouroboros agent connection.
+Used by /obo command to bridge Telegram messages to Ouroboros.
+"""
+
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN not set in .env file")
 if not TEAM_CHAT_ID:

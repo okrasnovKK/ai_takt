@@ -1,0 +1,13 @@
+# Environment
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated / temporary
+holiday_concept.png
+
+# Data files with sensitive/personal content
+data/incoming_messages.jsonl

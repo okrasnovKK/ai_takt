@@ -1,0 +1,695 @@
+{
+  "event_1784180001": {
+    "event_id": "event_1784180001",
+    "title": "Summer Team Building",
+    "format": "team_building",
+    "description": "Outdoor event",
+    "proposed_by": 12345,
+    "proposed_by_name": "",
+    "proposed_at": "2026-07-16T05:33:21.726457",
+    "status": "planning",
+    "date": "25.07.2026",
+    "budget": {
+      "estimated_total": 55000,
+      "items": [
+        {
+          "category": "venue",
+          "amount": 30000,
+          "notes": "Park"
+        },
+        {
+          "category": "catering",
+          "amount": 15000,
+          "notes": "BBQ"
+        },
+        {
+          "category": "transport",
+          "amount": 10000,
+          "notes": "Bus"
+        }
+      ],
+      "currency": "RUB"
+    },
+    "lpr_approval": {
+      "approved": true,
+      "approved_by": 54321,
+      "approved_at": "2026-07-16T05:33:21.729263",
+      "comments": "Approved!"
+    },
+    "tasks": [
+      {
+        "task_id": "task_1784180001_0",
+        "title": "Выбрать дату мероприятия",
+        "deadline": "11.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.745112"
+      },
+      {
+        "task_id": "task_1784180001_1",
+        "title": "Найти и забронировать площадку",
+        "deadline": "11.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.746171"
+      },
+      {
+        "task_id": "task_1784180001_2",
+        "title": "Составить смету и согласовать с ЛПР",
+        "deadline": "15.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.746171"
+      },
+      {
+        "task_id": "task_1784180001_3",
+        "title": "Организовать трансфер",
+        "deadline": "18.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.746679"
+      },
+      {
+        "task_id": "task_1784180001_4",
+        "title": "Закупить реквизит для игр",
+        "deadline": "20.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.747200"
+      },
+      {
+        "task_id": "task_1784180001_5",
+        "title": "Подготовить программу мероприятия",
+        "deadline": "20.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.747200"
+      },
+      {
+        "task_id": "task_1784180001_6",
+        "title": "Создать чат участников",
+        "deadline": "21.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.747707"
+      },
+      {
+        "task_id": "task_1784180001_7",
+        "title": "Опубликовать программу",
+        "deadline": "22.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.747707"
+      },
+      {
+        "task_id": "task_1784180001_8",
+        "title": "Провести мероприятие",
+        "deadline": "25.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.748228"
+      },
+      {
+        "task_id": "task_1784180001_9",
+        "title": "Собрать фото/видео материалы",
+        "deadline": "25.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.748749"
+      },
+      {
+        "task_id": "task_1784180001_10",
+        "title": "Отправить пост-опрос",
+        "deadline": "24.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.749250"
+      },
+      {
+        "task_id": "task_1784180001_11",
+        "title": "Создать видео-воспоминание",
+        "deadline": "22.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T05:33:21.749338"
+      }
+    ],
+    "event_chat_id": null,
+    "program": "",
+    "survey_id": null,
+    "video_path": null,
+    "completed_at": null,
+    "updated_at": "2026-07-16T05:33:21.749338"
+  },
+  "event_1784182122": {
+    "event_id": "event_1784182122",
+    "title": "Командный летний ивент",
+    "format": "proposal",
+    "description": "Предлагаю 3 формата на основе хобби команды:\n\n1. Спортивный квест-тимбилдинг «Олимпийские игры» 🏃\n   - Эстафеты, спортивные конкурсы, квест с головоломками\n   - Подходит Олегу (спорт) и Владиславу (головоломки)\n   - Примерная стоимость: от 30 000 ₽\n\n2. Творческий воркшоп + Квиз 🎨\n   - Сценарии/импровизация (Екатерина) + музыка (Владислав) + командные игры\n   - Можно совместить с лёгким фуршетом\n   - Примерная стоимость: от 25 000 ₽\n\n3. Выездной пикник с активностями 🌳\n   - Природа, BBQ, настольные игры, волейбол, фотосессия\n   - Универсальный формат для всех\n   - Примерная стоимость: от 35 000 ₽",
+    "proposed_by": 1,
+    "proposed_by_name": "Организатор",
+    "proposed_at": "2026-07-16T06:08:42.384641",
+    "status": "proposal",
+    "date": "",
+    "budget": {
+      "estimated_total": 0,
+      "items": [],
+      "currency": "RUB"
+    },
+    "lpr_approval": {
+      "approved": false,
+      "approved_by": null,
+      "approved_at": null,
+      "comments": ""
+    },
+    "tasks": [],
+    "event_chat_id": null,
+    "program": "",
+    "survey_id": null,
+    "video_path": null,
+    "completed_at": null,
+    "updated_at": "2026-07-16T06:08:42.384641"
+  },
+  "event_1784182204": {
+    "event_id": "event_1784182204",
+    "title": "Летний командный тимбилдинг 2026",
+    "format": "outdoor",
+    "description": "",
+    "proposed_by": 0,
+    "proposed_by_name": "",
+    "proposed_at": "2026-07-16T06:10:04.985202",
+    "status": "completed",
+    "date": "25.07.2026",
+    "budget": {
+      "estimated_total": 53000,
+      "items": [
+        {
+          "category": "venue",
+          "amount": 20000,
+          "notes": "База отдыха / парк"
+        },
+        {
+          "category": "catering",
+          "amount": 10000,
+          "notes": "Шашлык / пикник"
+        },
+        {
+          "category": "transport",
+          "amount": 15000,
+          "notes": "Автобус"
+        },
+        {
+          "category": "equipment",
+          "amount": 8000,
+          "notes": "Спортинвентарь"
+        }
+      ],
+      "currency": "RUB"
+    },
+    "lpr_approval": {
+      "approved": true,
+      "approved_by": 0,
+      "approved_at": "2026-07-16T06:15:40.696908",
+      "comments": "Смета утверждена! Отличный план."
+    },
+    "tasks": [
+      {
+        "task_id": "task_1784182540_0",
+        "title": "Выбрать дату",
+        "deadline": "04.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.710853"
+      },
+      {
+        "task_id": "task_1784182540_1",
+        "title": "Забронировать базу отдыха",
+        "deadline": "04.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.712854"
+      },
+      {
+        "task_id": "task_1784182540_2",
+        "title": "Составить смету",
+        "deadline": "11.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.712854"
+      },
+      {
+        "task_id": "task_1784182540_3",
+        "title": "Организовать трансфер",
+        "deadline": "15.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.713853"
+      },
+      {
+        "task_id": "task_1784182540_4",
+        "title": "Продумать меню",
+        "deadline": "18.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.714850"
+      },
+      {
+        "task_id": "task_1784182540_5",
+        "title": "Закупить снаряжение",
+        "deadline": "20.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.715850"
+      },
+      {
+        "task_id": "task_1784182540_6",
+        "title": "Создать чат участников",
+        "deadline": "21.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.716832"
+      },
+      {
+        "task_id": "task_1784182540_7",
+        "title": "Опубликовать программу",
+        "deadline": "22.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.716832"
+      },
+      {
+        "task_id": "task_1784182540_8",
+        "title": "Провести выезд",
+        "deadline": "25.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.717836"
+      },
+      {
+        "task_id": "task_1784182540_9",
+        "title": "Собрать фото/видео",
+        "deadline": "25.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.718825"
+      },
+      {
+        "task_id": "task_1784182540_10",
+        "title": "Отправить пост-опрос",
+        "deadline": "24.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.718825"
+      },
+      {
+        "task_id": "task_1784182540_11",
+        "title": "Создать видео-воспоминание",
+        "deadline": "22.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:15:40.719821"
+      }
+    ],
+    "event_chat_id": null,
+    "program": "🏕️ <b>Программа: Летний командный тимбилдинг 2026</b>\n📅 25 июля 2026 (суббота)\n\n⏰ <b>10:00</b> — Сбор у офиса, посадка в автобус\n⏰ <b>10:30</b> — Отправление\n⏰ <b>11:00</b> — Прибытие на базу отдыха\n⏰ <b>11:15</b> — Приветственный кофе + инструктаж\n⏰ <b>11:30</b> — <b>Командный квест</b> «По следам головоломок»\n   🔍 Задания на логику (Владислав — главный шифровальщик)\n   🏃 Спортивные этапы на местности (Олег — капитан команды)\n   🎨 Творческое задание (Екатерина — креативный директор)\n⏰ <b>13:30</b> — Обед: шашлык на природе 🥩🔥\n⏰ <b>15:00</b> — Турнир по волейболу\n⏰ <b>16:30</b> — Викторина «Квиз — всё о нас»\n⏰ <b>17:30</b> — Подведение итогов, вручение призов 🏆\n⏰ <b>18:00</b> — Фотосессия + сбор медиа 📸\n⏰ <b>18:30</b> — Отправление обратно\n⏰ <b>19:00</b> — Возвращение в офис\n\n— — — — — — — — — —\nЖдём всех! 🎉",
+    "survey_id": "ev_post_1784183859",
+    "video_path": "C:\\Users\\User\\Ouroboros\\Deliverables\\video_media\\output\\team_building_memories_2026.mp4",
+    "completed_at": "2026-07-16T06:17:01.898806",
+    "updated_at": "2026-07-16T06:37:39.796606"
+  },
+  "event_1784182221": {
+    "event_id": "event_1784182221",
+    "title": "Активный пикник в парке",
+    "format": "outdoor",
+    "description": "Командный выезд на природу: прогулка/лёгкий забег в парке + пикник с угощениями + интеллектуальная викторина. Сезон: июль 2026.",
+    "proposed_by": 0,
+    "proposed_by_name": "Организатор",
+    "proposed_at": "2026-07-16T06:10:21.819916",
+    "status": "completed",
+    "date": "19.07.2026",
+    "budget": {
+      "estimated_total": 12000,
+      "items": [
+        {
+          "category": "venue",
+          "amount": 0,
+          "notes": "Парк — бесплатно"
+        },
+        {
+          "category": "catering",
+          "amount": 5000,
+          "notes": "Закуски, фрукты, вода, напитки"
+        },
+        {
+          "category": "equipment",
+          "amount": 2000,
+          "notes": "Пледы, реквизит для викторины"
+        },
+        {
+          "category": "entertainment",
+          "amount": 3000,
+          "notes": "Призы победителям викторины"
+        },
+        {
+          "category": "other",
+          "amount": 2000,
+          "notes": "Одноразовая посуда, салфетки, пакеты"
+        }
+      ],
+      "currency": "RUB"
+    },
+    "lpr_approval": {
+      "approved": true,
+      "approved_by": 0,
+      "approved_at": "2026-07-16T06:13:51.916611",
+      "comments": "Смета утверждена. Приступаем к подготовке!"
+    },
+    "tasks": [
+      {
+        "task_id": "task_1784182221_0",
+        "title": "Выбрать дату",
+        "deadline": "28.06.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.853102"
+      },
+      {
+        "task_id": "task_1784182221_1",
+        "title": "Забронировать базу отдыха",
+        "deadline": "28.06.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.854374"
+      },
+      {
+        "task_id": "task_1784182221_2",
+        "title": "Составить смету",
+        "deadline": "05.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.855070"
+      },
+      {
+        "task_id": "task_1784182221_3",
+        "title": "Организовать трансфер",
+        "deadline": "09.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.855695"
+      },
+      {
+        "task_id": "task_1784182221_4",
+        "title": "Продумать меню",
+        "deadline": "12.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.856412"
+      },
+      {
+        "task_id": "task_1784182221_5",
+        "title": "Закупить снаряжение",
+        "deadline": "14.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.857109"
+      },
+      {
+        "task_id": "task_1784182221_6",
+        "title": "Создать чат участников",
+        "deadline": "15.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.857826"
+      },
+      {
+        "task_id": "task_1784182221_7",
+        "title": "Опубликовать программу",
+        "deadline": "16.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "done",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.858399"
+      },
+      {
+        "task_id": "task_1784182221_8",
+        "title": "Провести выезд",
+        "deadline": "19.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "in_progress",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.859021"
+      },
+      {
+        "task_id": "task_1784182221_9",
+        "title": "Собрать фото/видео",
+        "deadline": "19.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "in_progress",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.859540"
+      },
+      {
+        "task_id": "task_1784182221_10",
+        "title": "Отправить пост-опрос",
+        "deadline": "18.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.860093"
+      },
+      {
+        "task_id": "task_1784182221_11",
+        "title": "Создать видео-воспоминание",
+        "deadline": "16.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "",
+        "status": "pending",
+        "notes": "",
+        "created_at": "2026-07-16T06:10:21.860625"
+      }
+    ],
+    "event_chat_id": -5177914561,
+    "program": "Программа: Активный пикник в парке\n19 июля 2026 (суббота), 12:00-16:00\n\n12:00 - Сбор, распределение по командам\n12:30 - Прогулка/забег по парку\n13:00 - Пикник, общение\n14:00 - Викторина (музыка, IT, спорт, кино, головоломки)\n15:15 - Награждение\n15:30 - Общее фото\n",
+    "survey_id": "ev_event_1784182221_20260719",
+    "video_path": "C:\\Users\\User\\Ouroboros\\Deliverables\\video_media\\output\\team_picnic_memories.mp4",
+    "completed_at": "2026-07-16T06:15:53.725079",
+    "updated_at": "2026-07-16T06:29:26.105837"
+  },
+  "event_1784188205": {
+    "event_id": "event_1784188205",
+    "title": "Творческий воркшоп + Квиз",
+    "format": "workshop",
+    "description": "",
+    "proposed_by": 0,
+    "proposed_by_name": "",
+    "proposed_at": "2026-07-16T07:50:05.402923",
+    "status": "completed",
+    "date": "18.07.2026",
+    "budget": {
+      "estimated_total": 15000,
+      "items": [
+        {
+          "category": "Локация (офис/бесплатно)",
+          "amount": 0,
+          "notes": "Переговорка"
+        },
+        {
+          "category": "Кейтеринг",
+          "amount": 6000,
+          "notes": "Пицца, фрукты, десерты, напитки"
+        },
+        {
+          "category": "Реквизит и призы",
+          "amount": 4000,
+          "notes": "Флипчарт, маркеры, призы"
+        },
+        {
+          "category": "Ведущий",
+          "amount": 0,
+          "notes": "Своими силами"
+        },
+        {
+          "category": "Музыка",
+          "amount": 0,
+          "notes": "Колонка Владислава"
+        },
+        {
+          "category": "Резерв",
+          "amount": 5000,
+          "notes": "Непредвиденное"
+        }
+      ],
+      "currency": "RUB"
+    },
+    "lpr_approval": {
+      "approved": true,
+      "approved_by": 1,
+      "approved_at": "2026-07-16T08:08:41.016286",
+      "comments": "Смета утверждена! 15 000 ₽ — отлично укладываемся."
+    },
+    "tasks": [
+      {
+        "task_id": "task__1784188205_0",
+        "title": "Найти и забронировать площадку (переговорка/лофт)",
+        "deadline": "16.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "Организатор",
+        "status": "done",
+        "notes": "Офисная переговорка или антикафе",
+        "created_at": "2026-07-16T08:11:00"
+      },
+      {
+        "task_id": "task__1784188205_1",
+        "title": "Заказать кейтеринг (пицца, фрукты, десерты, напитки)",
+        "deadline": "16.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "Организатор",
+        "status": "done",
+        "notes": "6 000 ₽ — Яндекс.Еда / Купер",
+        "created_at": "2026-07-16T08:11:00"
+      },
+      {
+        "task_id": "task__1784188205_2",
+        "title": "Купить реквизит и призы (флипчарт, маркеры, призы)",
+        "deadline": "17.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "Организатор",
+        "status": "done",
+        "notes": "4 000 ₽ — Ozon / WB",
+        "created_at": "2026-07-16T08:11:00"
+      },
+      {
+        "task_id": "task__1784188205_3",
+        "title": "Подготовить сценарии и квиз-вопросы",
+        "deadline": "17.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "Организатор",
+        "status": "done",
+        "notes": "Сценарий (Екатерина), музыка (Владислав), квиз (бот)",
+        "created_at": "2026-07-16T08:11:00"
+      },
+      {
+        "task_id": "task__1784188205_4",
+        "title": "Разослать приглашения команде",
+        "deadline": "17.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "Организатор",
+        "status": "done",
+        "notes": "Через бота @ai_takt_bot",
+        "created_at": "2026-07-16T08:11:00"
+      },
+      {
+        "task_id": "task__1784188205_5",
+        "title": "Опубликовать программу и тайминг",
+        "deadline": "17.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "Организатор",
+        "status": "done",
+        "notes": "В командном чате",
+        "created_at": "2026-07-16T08:11:00"
+      },
+      {
+        "task_id": "task__1784188205_6",
+        "title": "ПРОВЕСТИ МЕРОПРИЯТИЕ 🎉",
+        "deadline": "18.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "Все",
+        "status": "done",
+        "notes": "Суббота! Творческий воркшоп + Квиз",
+        "created_at": "2026-07-16T08:11:00"
+      },
+      {
+        "task_id": "task__1784188205_7",
+        "title": "Отправить пост-опрос участникам",
+        "deadline": "20.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "Организатор",
+        "status": "done",
+        "notes": "Анонимный опрос удовлетворённости",
+        "created_at": "2026-07-16T08:11:00"
+      },
+      {
+        "task_id": "task__1784188205_8",
+        "title": "Собрать фото/видео → создать клип «Воспоминания»",
+        "deadline": "21.07.2026",
+        "assigned_to": 0,
+        "assigned_to_name": "Организатор",
+        "status": "done",
+        "notes": "Seedance 2.0 генерация",
+        "created_at": "2026-07-16T08:11:00"
+      }
+    ],
+    "event_chat_id": -1004329450391,
+    "program": "15:00-15:15 — Сбор, кофе, лёгкий фуршет\n15:15-15:45 — Творческий воркшоп (пишем сценарий мини-сценки) — ведёт Екатерина\n15:45-16:00 — Показ сценок\n16:00-16:30 — Музыкальный квиз — ведёт Владислав\n16:30-16:45 — Перерыв, пицца, общение\n16:45-17:15 — Командный квиз «Что? Где? Когда?» + IT-викторина\n17:15-17:30 — Награждение, призы\n17:30-17:45 — Фотосессия, сбор медиа",
+    "survey_id": "ev_event_1784188205_1784196337",
+    "video_path": "C:\\Users\\User\\Ouroboros\\Deliverables\\video_media\\output\\workshop_quiz_memories_h264.mp4",
+    "completed_at": "2026-07-16T09:20:50",
+    "updated_at": "2026-07-16T11:03:31.722366"
+  }
+}

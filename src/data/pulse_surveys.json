@@ -1,0 +1,102 @@
+{
+  "pulse_1784208929": {
+    "survey_id": "pulse_1784208929",
+    "quarter": "Q3_2026",
+    "created_by": 1,
+    "created_in_chat": -5177914561,
+    "created_at": "2026-07-16T13:35:29.291452",
+    "state": "completed",
+    "participants": {
+      "2043389803": {
+        "state": "survey_completed",
+        "answers": {
+          "q1": "Новые задачи",
+          "q2": "Внедрение новых технологий",
+          "q3": "Нечего сказать на этот пункт"
+        },
+        "sent_at": "2026-07-16T13:35:31.528020",
+        "reminder_sent": false,
+        "reminder_sent_at": null,
+        "completed_at": "2026-07-16T13:47:09.534389"
+      },
+      "467612821": {
+        "state": "survey_completed",
+        "answers": {
+          "q1": "Снимать ролики",
+          "q2": "Автоматизировать рутинные процессы",
+          "q3": "Больше поводов для встреч с коллективом"
+        },
+        "sent_at": "2026-07-16T13:35:32.910320",
+        "reminder_sent": false,
+        "reminder_sent_at": null,
+        "completed_at": "2026-07-16T13:46:39.237670"
+      },
+      "30169318": {
+        "state": "survey_completed",
+        "answers": {
+          "q1": "Успешный результат какой-нибудь сложной задачи, когда кажется, что он невозможен.",
+          "q2": "Добавить бесплатную воду к печенькам😂",
+          "q3": "20 литров бензина ещё можно на неделю, ну или 40)"
+        },
+        "sent_at": "2026-07-16T13:35:34.392999",
+        "reminder_sent": false,
+        "reminder_sent_at": null,
+        "completed_at": "2026-07-16T13:46:39.240495"
+      }
+    },
+    "output_path": "C:\\Users\\User\\Ouroboros\\Deliverables\\excel_data\\Опрос_вовлеченности_Q3_2026.xlsx",
+    "completed_at": "2026-07-16T13:47:11.460158"
+  },
+  "pulse_cli_1784220067": {
+    "survey_id": "pulse_cli_1784220067",
+    "quarter": "Q3_2026",
+    "created_by": 0,
+    "created_in_chat": 0,
+    "created_at": "2026-07-16T16:41:07.327959",
+    "state": "active",
+    "participants": {
+      "2043389803": {
+        "state": "survey_sent",
+        "answers": {},
+        "sent_at": "2026-07-16T16:41:10.116472",
+        "reminder_sent": false,
+        "reminder_sent_at": null,
+        "completed_at": null
+      },
+      "467612821": {
+        "state": "survey_sent",
+        "answers": {},
+        "sent_at": "2026-07-16T16:41:10.960510",
+        "reminder_sent": false,
+        "reminder_sent_at": null,
+        "completed_at": null
+      },
+      "30169318": {
+        "state": "survey_completed",
+        "answers": {
+          "q1": "Успешный результат какой-нибудь сложной задачи, когда кажется, что он невозможен.",
+          "q2": "Добавить бесплатную воду к печенькам😂",
+          "q3": "20 литров бензина ещё можно на неделю, ну или 40)"
+        },
+        "sent_at": "2026-07-16T16:41:12.582664",
+        "reminder_sent": false,
+        "reminder_sent_at": null,
+        "completed_at": "2026-07-16T17:32:00.540206"
+      },
+      "1006920559": {
+        "state": "survey_completed",
+        "answers": {
+          "q1": "Работа в команде",
+          "q2": "Больше созвонов",
+          "q3": "Всë хорошо»"
+        },
+        "sent_at": "2026-07-16T16:41:13.304353",
+        "reminder_sent": false,
+        "reminder_sent_at": null,
+        "completed_at": "2026-07-16T16:43:54.816306"
+      }
+    },
+    "output_path": null,
+    "completed_at": null
+  }
+}

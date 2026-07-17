@@ -1,0 +1,51 @@
+{
+  "ev_event_1784188205_1784196337": {
+    "event_id": "ev_event_1784188205_1784196337",
+    "title": "Творческий воркшоп + Квиз",
+    "date": "18.07.2026",
+    "created_by": 0,
+    "created_in_chat": 0,
+    "created_at": "2026-07-16T10:05:37.721969",
+    "state": "completed",
+    "participants": {
+      "2043389803": {
+        "state": "survey_completed",
+        "answers": {
+          "q1": "Понравилась еда",
+          "q2": "Другое место: природа",
+          "q3": "Все хорошо, спасибо"
+        },
+        "sent_at": "2026-07-16T10:05:39.082563",
+        "reminder_sent": false,
+        "reminder_sent_at": null,
+        "completed_at": "2026-07-16T10:38:37.540754"
+      },
+      "467612821": {
+        "state": "survey_completed",
+        "answers": {
+          "q1": "Классные конкурсы",
+          "q2": "Можно заказать шашлыков",
+          "q3": "Давайте больше народу собирать"
+        },
+        "sent_at": "2026-07-16T10:05:39.957488",
+        "reminder_sent": false,
+        "reminder_sent_at": null,
+        "completed_at": "2026-07-16T10:06:36"
+      },
+      "30169318": {
+        "state": "survey_completed",
+        "answers": {
+          "q1": "Организатор молодец.",
+          "q2": "Добавить анонимности, чтобы ответы не приходили в общий чат.",
+          "q3": "Спасибо, всё отлично"
+        },
+        "sent_at": "2026-07-16T10:05:40.815728",
+        "reminder_sent": false,
+        "reminder_sent_at": null,
+        "completed_at": "2026-07-16T10:38:37.542971"
+      }
+    },
+    "output_path": "C:\\Users\\User\\Ouroboros\\Deliverables\\excel_data\\Творческий_воркшоп__Квиз_18-07-2026.xlsx",
+    "completed_at": "2026-07-16T10:38:38.705765"
+  }
+}

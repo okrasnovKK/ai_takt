@@ -1,0 +1,42 @@
+{
+  "2043389803": {
+    "user_id": 2043389803,
+    "username": "OlegKrasnovK",
+    "first_name": "Олег",
+    "last_name": "Краснов",
+    "chat_id": 2043389803,
+    "registered_at": null
+  },
+  "467612821": {
+    "user_id": 467612821,
+    "username": "Ekaterina_Kabankova1210",
+    "first_name": "Екатерина",
+    "last_name": "Кабанкова",
+    "chat_id": 467612821,
+    "registered_at": null
+  },
+  "30169318": {
+    "user_id": 30169318,
+    "username": "Sergey_ENNER",
+    "first_name": "Sergey",
+    "last_name": "ENNER",
+    "chat_id": 30169318,
+    "registered_at": null
+  },
+  "1006920559": {
+    "user_id": 1006920559,
+    "username": "FadeevVladislav",
+    "first_name": "Владислав",
+    "last_name": "",
+    "chat_id": 1006920559,
+    "registered_at": null
+  },
+  "1087968824": {
+    "user_id": 1087968824,
+    "username": "GroupAnonymousBot",
+    "first_name": "Group",
+    "last_name": "",
+    "chat_id": 1087968824,
+    "registered_at": null
+  }
+}

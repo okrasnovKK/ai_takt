@@ -106,7 +106,7 @@ python cli.py pulse_survey                             # запустить puls
 
 # Мероприятия
 python cli.py events                                   # список мероприятий
-python cli.py event-create "Название" team_building     # создать
+python cli.py event-create "Название" workshop             # создать
 python cli.py event-status [id]                        # статус мероприятия
 python cli.py event-approve <id> [комментарий]          # согласовать
 python cli.py event-budget <id>                        # показать смету
@@ -119,7 +119,7 @@ python cli.py event-budget <id>                        # показать сме
 ```
 ai-takt/
 ├── .env                          # Токен бота и ID чатов (не в git)
-├── requirements.txt              # Зависимости (aiogram, python-dotenv)
+├── requirements.txt              # Зависимости (aiogram>=3.10.0, python-dotenv>=1.0.0)
 ├── run.py                        # Точка входа
 ├── cli.py                        # CLI-утилита
 ├── data/
@@ -131,6 +131,7 @@ ai-takt/
 └── src/
     ├── config.py                 # Конфигурация (загрузка из .env)
     ├── bot.py                    # Основной бот (инициализация, polling)
+    ├── __init__.py
     ├── data/
     │   ├── users.json            # База пользователей
     │   ├── events.json           # Состояние мероприятий
@@ -139,8 +140,10 @@ ai-takt/
     │   ├── survey_state.json     # Состояние onboarding-опросов
     │   └── event_surveys.json    # Состояние пост-опросов
     ├── handlers/
+    │   ├── __init__.py
     │   └── handlers.py           # Обработчики всех команд и сообщений
     └── services/
+        ├── __init__.py
         ├── database.py           # Сервис базы пользователей
         ├── messenger.py          # Отправка сообщений (анти-дубликат)
         ├── message_logger.py     # Логирование входящих
